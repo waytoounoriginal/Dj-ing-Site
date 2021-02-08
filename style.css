@@ -305,7 +305,7 @@ body {
 }
 .solid {
     transform: translateY(25vh);
-    border-top: 2px solid #ffff;
+    border-top: 1.25px solid #ffff;
     max-width: 50vw;
     z-index: 3;
 }
