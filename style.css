@@ -31,8 +31,10 @@ body {
     justify-content: center;
 }
 .navbar ul li {
-    margin: 0 2rem;
-    padding: 1rem;
+    margin: 0 3rem;
+    
+    padding right: 1.5rem;
+    padding-top: 0.5rem;
 }
 
 .navbar ul li a {
@@ -105,7 +107,7 @@ body {
 	border:3px solid black;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#ffffff !important;
 	font-family: 'Heebo', sans-serif;
 	font-size:17px;
 	padding:18px 59px;
@@ -114,6 +116,7 @@ body {
     z-index: 2;
     top: 45%;
     left: 2%;
+    text-decoration: none !important;
     transition: 0.3s;
     
 }
@@ -253,16 +256,25 @@ body {
     z-index:3;
 }
 
-.slideshow {
+.carousel {
     z-index:2;
 }
 
-.slideshow img{
+.carousel-inner img{
     display: block;
     margin-top:20vh;
     margin-left:auto;
     margin-right: auto;
     margin-bottom: 48vh;
+}
+
+.carousel-control-prev {
+    justify-content: center;
+    margin-bottom: 25vh;
+}
+.carousel-control-next {
+    justify-content: center;
+    margin-bottom: 25vh;
 }
 
 .black-rectangle2 {
@@ -275,6 +287,9 @@ body {
     
 }
 
+.carousel-indicators {
+    margin-bottom: 20vh;
+}
 .background {
      background: url("https://picjumbo.com/wp-content/uploads/work-in-progress-web-design-layout-ideas-2210x1474.jpg")
         no-repeat fixed 100%;
@@ -305,7 +320,7 @@ body {
 }
 .solid {
     transform: translateY(25vh);
-    border-top: 1.25px solid #ffff;
+    border-top: 2px solid #ffff;
     max-width: 50vw;
     z-index: 3;
 }
